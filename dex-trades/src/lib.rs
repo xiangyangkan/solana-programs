@@ -411,6 +411,13 @@ fn get_trade_instruction(
                 );
             }
         }
+        "srAMMzfVHVAtgSJc8iH6CfKzuWuUTzLHVCE81QU1rgi" => {
+            result =
+                dapps::dapp_srAMMzfVHVAtgSJc8iH6CfKzuWuUTzLHVCE81QU1rgi::parse_trade_instruction(
+                    instruction_data,
+                    input_accounts,
+                );
+        }
         "HyaB3W9q6XdA5xwpU4XnSZV94htfmbmqJXZcEbRaJutt" => {
             result =
                 dapps::dapp_HyaB3W9q6XdA5xwpU4XnSZV94htfmbmqJXZcEbRaJutt::parse_trade_instruction(
@@ -477,6 +484,20 @@ fn get_trade_instruction(
         "cysPXAjehMpVKUapzbMCCnpFxUFFryEWEaLgnb9NrR8" => {
             result =
                 dapps::dapp_cysPXAjehMpVKUapzbMCCnpFxUFFryEWEaLgnb9NrR8::parse_trade_instruction(
+                    instruction_data,
+                    input_accounts,
+                );
+        }
+        "cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG" => {
+            result =
+                dapps::dapp_cpamdpZCGKUy5JxQXB4dcpGPiikHawvSWAd6mEn1sGG::parse_trade_instruction(
+                    instruction_data,
+                    input_accounts,
+                );
+        }
+        "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN" => {
+            result =
+                dapps::dapp_dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN::parse_trade_instruction(
                     instruction_data,
                     input_accounts,
                 );
@@ -628,6 +649,13 @@ fn get_trade_instruction(
         "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo" => {
             result =
                 dapps::dapp_LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo::parse_trade_instruction(
+                    instruction_data,
+                    input_accounts,
+                );
+        }
+        "LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj" => {
+            result =
+                dapps::dapp_LanMV9sAd7wArD4vJFi2qDdfnVhFxYSUg6eADduJ3uj::parse_trade_instruction(
                     instruction_data,
                     input_accounts,
                 );
