@@ -1,7 +1,7 @@
 specVersion: v0.1.0
 package:
-  name: 'tl_solana_dex_trades_v6_0_0'
-  version: v6.0.0
+  name: 'tl_solana_programs_spl_token_extended_3_0_0'
+  version: v3.0.0
 
 protobuf:
   files:
@@ -14,15 +14,10 @@ binaries:
     type: wasm/rust-v1
     file: target/wasm32-unknown-unknown/release/substreams.wasm
 
-imports:
-  sol: https://spkg.io/streamingfast/solana-common-v0.3.0.spkg
-
 modules:
   - name: map_block
     kind: map
     inputs:
-      - map: sol:blocks_without_votes
+      - source: sf.solana.type.v1.Block
     output:
-      type: proto:sf.solana.dex.trades.v1.Output
-
-network: solana
+      type: proto:sf.solana.spl.v1.Output
